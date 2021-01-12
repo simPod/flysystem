@@ -2,11 +2,11 @@
 name: Quality Assurance
 on:
   push:
-    paths:
-      - src/**/*.php
-      - .github/workflows/quality-assurance.yml
-    branches:
-      - 2.x
+#    paths:
+#      - src/**/*.php
+#      - .github/workflows/quality-assurance.yml
+#    branches:
+#      - 2.x
   pull_request:
     paths:
       - src/**/*.php
